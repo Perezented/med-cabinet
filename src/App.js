@@ -17,6 +17,7 @@ const store = createStore(rootReducer, applyMiddleware(thunk));
 function App() {
     return (
         <div className="App">
+            <h1>Look at me!!!</h1>
             <Provider store={store}>
                 <Switch>
                     <Route exact path="/home">
